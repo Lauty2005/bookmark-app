@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.7rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.bookmark-card {
+  background: white;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark-card a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.bookmark-card a:hover {
+  text-decoration: underline;
+}
+
+.tags {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.delete-btn {
+  background: #ef4444;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+#toggle-auth span {
+  color: #4f46e5;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#toggle-auth {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+#logout-btn {
+  background: #6b7280;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  width: auto;
+}
+
+#logout-btn:hover {
+  background: #4b5563;
+}

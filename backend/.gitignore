@@ -1,0 +1,5 @@
+## Node modules ignored
+node_modules
+
+## Variables
+.env
